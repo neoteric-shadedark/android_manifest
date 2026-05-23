@@ -67,4 +67,6 @@
            fetch="https://github.com/neoteric-shadedark"
            revision="bka" />
 
+  <include name="marble.xml" />
+
 </manifest>
