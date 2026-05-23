@@ -62,4 +62,9 @@
   <!-- Remove extraneous projects -->
   <include name="obsolete.xml"/>
 
+  <!-- Local Remote -->
+  <remote  name="shadedark"
+           fetch="https://github.com/neoteric-shadedark"
+           revision="bka" />
+
 </manifest>
