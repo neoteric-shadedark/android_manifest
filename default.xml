@@ -68,5 +68,6 @@
            revision="bka" />
 
   <include name="marble.xml" />
+  <include name="neoteric-shadedark.xml" />
 
 </manifest>
