@@ -21,9 +21,9 @@
 
   <!-- Core
   <remove-project name="platform/art" />
-  <project path="art" name="android_art" remote="neoteric" />
-  <remove-project name="platform/bionic" />
-  <project path="bionic" name="android_bionic" remote="neoteric" /> -->
+  <project path="art" name="android_art" remote="neoteric" /> -->
+  <remove-project name="android_bionic" />
+  <project path="bionic" name="android_bionic" remote="shadedark" />
 
   <!-- Bootable
   <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" remote="neoteric" />
@@ -124,10 +124,10 @@
 
   <!-- System
   <remove-project name="platform/system/memory/lmkd" />
-  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="neoteric" />
-  <remove-project name="platform/system/core" />
-  <project path="system/core" name="android_system_core" remote="neoteric" />
-  <remove-project name="android_system_media" />
+  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="neoteric" /> -->
+  <remove-project name="android_system_core" />
+  <project path="system/core" name="android_system_core" remote="shadedark" />
+<!-- <remove-project name="android_system_media" />
   <project path="system/media" name="android_system_media" remote="shadedark" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="neoteric" />
