@@ -8,20 +8,20 @@ First, make sure you have an [Android build environment](https://source.android.
 
 Initialize local repository:
 ```
-repo init -u https://github.com/Neoteric-OS/android_manifest -b cnb
+repo init -u https://github.com/neoteric-shadedark/android_manifest -b cnb --git-lfs
 ```
 Alternateively, shallow clone everything to save a lot of space,
 ```
-repo init --depth=1 -u https://github.com/Neoteric-OS/android_manifest -b cnb
+repo init --depth=1 -u https://github.com/neoteric-shadedark/android_manifest -b cnb --git-lfs
 ```
 
 If you are a maintainer you need to use:
 ```
-repo init -u https://github.com/Neoteric-OS/android_manifest -g all -b cnb
+repo init -u https://github.com/neoteric-shadedark/android_manifest -g all -b cnb --git-lfs
 ```
 Or to save space just as above :
 ```
-repo init --depth=1 -u https://github.com/Neoteric-OS/android_manifest -g all -b cnb
+repo init --depth=1 -u https://github.com/neoteric-shadedark/android_manifest -g all -b cnb --git-lfs
 ```
 
 Then sync:

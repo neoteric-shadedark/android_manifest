@@ -57,8 +57,14 @@
            fetch="https://codeberg.org/Neoteric-OS/"
            revision="refs/heads/bka" /> 
 
+  <!-- Local Remote -->
+  <remote  name="shadedark"
+           fetch="https://github.com/neoteric-shadedark"
+           revision="cnb"/>
+
   <include name="neoteric.xml"/>
   <include name="internal.xml" />
+  <include name="neoteric-shadedark.xml"/>
 
   <!-- Remove extraneous projects -->
   <include name="obsolete.xml"/>
